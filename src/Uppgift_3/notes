@@ -1,0 +1,37 @@
+Instuderingsfrågor:
+
+1. I java biblioteket finns metoden Collections.binarySearch(). Vad är
+tidskomplexiteten för metoden?
+       Svar: This method runs in log(n) time for a "random access" list (which provides
+           near-constant-time positional access). If the specified list does not implement
+           the RandomAccess interface and is large, this method will do an iterator-based
+           binary search that performs O(n) link traversals and O(log n) element comparisons.
+
+2. När skulle du föredra linjär sökning framför binär sökning.
+    Svar: När objektet inte är sorterat.
+
+3. Har linjär sökningen bättre tidskomplexitet om data är redan sorterad?
+    Svar: Endast om det sökta är nära början av dataobjektet.
+
+4. Vad är skillnaden mellan en ArrayList och en LinkedList? När lämpar
+   sig den ena bättre än den andra?
+     Svar: En Arraylist allokerar statiskt minne medans en LinkedList allokera minne för noderna vid behov.
+        En arraylist lämpar sig bättre ifall man vill hantera mycket data, medans en LinkedList är bättre om du
+        ska flytta runt obj. eller lägga till eller ta bort objekt.
+
+5. När lämpar sig arrayer bättre en Länkad lista?
+    Svar: När man vill ha direkt åtkomst till all sin data.
+
+6. Vad är tidskomplexiteten för att lägga till / ta bort ett värde i länkad lista
+   på en viss plats?
+    Svar: O(1).
+
+7. Vad är tidskomplexiteten för att lägga till/ta bord element i en arraylist
+   datastruktur på en viss plats.
+    Svar: O(n), eller O(1) om första elementet.
+
+8. Vad blir tidskomplexiteten för att ta bort första elementen i en länkad lista?
+    Svar: O(1).
+
+9. Vad blir tidskomplexiteten för att ta bort första elementen i en arraylist?
+    Svar: O(1).

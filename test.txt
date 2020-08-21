@@ -1,0 +1,29 @@
+Char: 
+ Freq: 18 Codes: 101100
+Char:  Freq: 18 Codes: 101101
+Char:   Freq: 504 Codes: 0
+Char: " Freq: 4 Codes: 10101000
+Char: ' Freq: 27 Codes: 10000
+Char: , Freq: 21 Codes: 110100
+Char: . Freq: 18 Codes: 101110
+Char: / Freq: 2 Codes: 101111000
+Char: < Freq: 1 Codes: 1011110110
+Char: > Freq: 1 Codes: 1011110111
+Char: @ Freq: 2 Codes: 101111001
+Char: I Freq: 4 Codes: 10101001
+Char: M Freq: 87 Codes: 1100
+Char: N Freq: 5 Codes: 10111110
+Char: O Freq: 202 Codes: 111
+Char: P Freq: 23 Codes: 110110
+Char: V Freq: 7 Codes: 10111111
+Char: Y Freq: 27 Codes: 10001
+Char: \ Freq: 2 Codes: 101111010
+Char: _ Freq: 33 Codes: 10100
+Char: ` Freq: 32 Codes: 10011
+Char: a Freq: 17 Codes: 101011
+Char: b Freq: 27 Codes: 10010
+Char: d Freq: 26 Codes: 110111
+Char: o Freq: 4 Codes: 10101010
+Char: | Freq: 4 Codes: 10101011
+Char: ~ Freq: 22 Codes: 110101
+

@@ -1,0 +1,7 @@
+containts method: NullPointerException, forgot to check for null objects in the array. Solved with if(list[i] == null)
+
+get method: ExceptionIndexToHigh, didn't account for index out of bounds on both ways, too hight/ too small, solved with threwing IndexOutOfBoundsException when index out of the arrays bounds.
+
+remove method: "assertEquals("Check that object is removed against indexOf()", -1, list_1.indexOf(2));" didn't succed  NullPointerException, index method was using list.lenght instead of count, count-- was also added to remove method.
+
+isEmpty method: AssertionError, had list.length instead of count == 0. Solved replaced list.length with count.
